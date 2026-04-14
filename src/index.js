@@ -10,7 +10,7 @@ console.log('🔄 Démarrage du backend IFTPL...');
 
 // Configuration CORS
 const corsOptions = {
-    origin: 'https://iftpl-react.vercel.app',
+    origin: 'https://iftpl-react.vercel.app' || 'http://localhost:5173',
     credentials: true,
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
     allowedHeaders: ['Content-Type', 'Authorization']
